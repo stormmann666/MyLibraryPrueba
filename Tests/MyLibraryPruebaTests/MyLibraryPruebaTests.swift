@@ -8,6 +8,16 @@ final class MyLibraryPruebaTests: XCTestCase {
         // results.
         XCTAssertEqual(MyLibraryPrueba().text, "Hello, World!")
     }
+    
+    func test_prueba() {
+        
+        let f = prueba()
+        
+        XCTAssert(f.total == 20.00)
+        
+        
+    }
+    
 
     static var allTests = [
         ("testExample", testExample),
